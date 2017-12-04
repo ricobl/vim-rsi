@@ -45,7 +45,7 @@ if &encoding ==# 'latin1' && has('gui_running') && !empty(findfile('plugin/sensi
   set encoding=utf-8
 endif
 
-noremap!        <M-b> <S-Left>
+#noremap!        <M-b> <S-Left>
 noremap!        <M-d> <C-O>dw
 cnoremap        <M-d> <S-Right><C-W>
 noremap!        <M-BS> <C-W>
